@@ -208,12 +208,9 @@ providers/common/include/prov/der_sm2.h
 *.so.*
 *.dylib
 *.dylib.*
-*.dll
-*.dll.*
 *.exe
 *.pyc
 *.exp
-*.lib
 *.pdb
 *.tds
 *.ilk
