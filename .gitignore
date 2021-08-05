@@ -160,10 +160,6 @@ providers/common/include/prov/der_sm2.h
 *.asm
 !/crypto/*/asm/*.asm
 
-# Object files
-*.o
-*.obj
-
 # editor artefacts
 *.swp
 .#*
@@ -173,27 +169,8 @@ providers/common/include/prov/der_sm2.h
 # Certificate symbolic links
 *.0
 
-# All kinds of libraries and executables
-*.a
-*.so
-*.so.*
-*.dylib
-*.dylib.*
-*.exe
-*.pyc
-*.exp
-*.pdb
-*.tds
-*.ilk
-*.def
-*.rc
-*.res
-
 # Misc generated stuff
 Makefile.save
-/crypto/**/lib
-/engines/**/lib
-/ssl/**/lib
 *.bak
 cscope.*
 *.d
